@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_dashboard"
+        android:title="Dashboard"
+        android:icon="@android:drawable/ic_menu_view"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_riego"
+        android:title="Riego"
+        android:icon="@android:drawable/ic_menu_manage"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_sensores"
+        android:title="Sensores"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_acerca"
+        android:title="Acerca de"
+        app:showAsAction="never"/>
+</menu>
